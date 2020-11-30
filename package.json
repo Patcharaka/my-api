@@ -1,0 +1,27 @@
+{
+  "name": "env",
+  "version": "0.0.1",
+  "description": "example",
+  "main": "app.js",
+  "scripts": {
+    "test": "run",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "myAPI"
+  },
+  "keywords": [
+    "pepsi"
+  ],
+  "author": "pepsi",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6"
+  }
+}
